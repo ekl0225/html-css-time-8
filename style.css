@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 200vh;
+  width: 100vw;
+  background-color: hsl(271, 31%, 58%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  position: relative;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.flex > div {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+.static {
+  position: static;
+  background-color: hsl(200, 34%, 30%);
+}
+.relative {
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+  background-color: hsl(200, 24%, 59%);
+}
+.absolute {
+  position: fixed;
+  background-color: rgb(184, 54, 117);
+  top: 0;
+  left: 0;
+}
+.fixed {
+  position: fixed;
+  background-color: hsl(200, 34%, 30%);
+}
+.sticky {
+  position: fixed;
+  bottom: 0;
+  background-color: hsl(200, 34%, 30%);
+}
+nav {
+  height: 3rem;
+  width: 100vw;
+  background-color: #6a3b8e;
+}
