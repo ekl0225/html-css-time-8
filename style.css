@@ -55,3 +55,9 @@ nav {
   width: 100vw;
   background-color: #6a3b8e;
 }
+#main {
+  background-image: url(images/playfuldog.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
